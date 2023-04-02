@@ -20,8 +20,8 @@ body{
 }
 img{
     position:fixed;
-    margin: 0px;
-    z-index: -2;
+    margin: -20px;
+    z-index: -2px;
     opacity: 0.33;
     width: 800px;
     height: 600px;
