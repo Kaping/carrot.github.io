@@ -20,7 +20,7 @@ body{
 }
 img{
     position:fixed;
-    margin: -20px;
+    margin: -30px;
     z-index: -2px;
     opacity: 0.33;
     width: 800px;
