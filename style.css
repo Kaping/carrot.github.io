@@ -1,0 +1,100 @@
+.hidden {
+    display: none;
+}
+.flex {
+    display: flex;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+body{
+    background-color: linen;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 100px;
+}
+img{
+    position:fixed;
+    margin: 0px;
+    z-index: -2;
+    opacity: 0.33;
+    width: 800px;
+    height: 600px;
+}
+#greeting {
+    color:white;
+    
+}
+#login-form{
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+#login-form div{
+    margin-right: 60px;
+}
+#login-form input{
+    background-color: white;
+    color: gray;
+    margin-left: 20px;
+    text-align: center;
+    padding: 5px 20px;
+    border: 2px gainsboro solid;
+    border-radius: 15px;
+}
+#login-form input:last-child{
+    background-color: white;
+    color: gray;
+    margin-left: 20px;
+    text-align: center;
+    padding: 5px 20px;
+    border: 2px gainsboro solid;
+    border-radius: 15px;
+}
+#clock{
+    background-color: ivory;
+    text-align: center;
+    padding: 10px 80px;
+    border: 10px tomato solid;
+    border-radius: 15px;
+    color:darkgreen;
+}
+#todo-input{
+    text-align: center;
+    padding: 10px 80px;
+    border: 2px gainsboro solid;
+    border-radius: 15px;
+}
+
+li{
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    margin-bottom: 10px;
+    margin-left: -40px;
+    
+}
+
+li span{
+    padding: 0px 20px;
+    border: 3px tomato solid;
+    border-radius: 20px;
+    background-color: white;
+    color:firebrick;
+}
+li button{
+    padding: 1px;
+    
+    border-radius: 50%;
+    border-color: red;
+    background-color: white;
+
+    
+}

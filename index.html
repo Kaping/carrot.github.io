@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chrome</title>
+  </head>
+  <body>
+    <form id="login-form" class="hidden">
+      <div></div>
+      <input
+        type="text"
+        placeholder="what is your name?"
+        required
+        maxlength="15"
+      />
+      <input type="submit" value="Log In" />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+
+    <h1 id="clock">00:00:00</h1>
+
+    <form id="todo-form">
+      <input
+        id="todo-input"
+        type="text"
+        placeholder="Write a To Do List"
+        required
+      />
+    </form>
+    <ul id="todo-list"></ul>
+    <!-- <form>
+      <a href="https://www.youtube.com/">Youtube</a>
+    </form> -->
+
+    <script src="src/app.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/background.js"></script>
+    <!-- <script src="src/weather.js"></script> -->
+  </body>
+</html>
